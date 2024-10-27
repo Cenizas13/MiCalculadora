@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: black;
+}
+
+.boton {
+    width: 75px;
+    height: 75px;
+    font-size: 50px;
+    margin: 2px;
+    cursor: pointer;
+    background: rgb(138, 117, 161);
+    color: white;
+    border: none;
+}
+
+.botonAncho {
+    width: 156px;
+}
+
+.botonIgual {
+    height: 156px;
+}
+
+.expresion {
+    width: 307px;
+    margin: 5px;
+    font-size: 50px;
+    padding: 5px;
+    background: rgb(224, 225, 228);
+    border: none;
+}
+
+.container {
+    border-radius: 15px;
+    border: 5px solid purple;
+    padding: 10px;
+    background-color: rgb(30, 30, 30);
+}
